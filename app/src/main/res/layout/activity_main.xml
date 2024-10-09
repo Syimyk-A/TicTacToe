@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:textSize="30dp"
+                android:layout_margin="5sp"
+                android:background="@android:color/holo_blue_light"
+                 />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:textSize="30dp"
+                android:layout_margin="5sp"
+                android:background="@android:color/holo_blue_light"
+                 />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:textSize="30dp"
+                android:layout_margin="5sp"
+                android:background="@android:color/holo_blue_light"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:textSize="30dp"
+                android:layout_margin="5sp"
+                android:background="@android:color/holo_blue_light"
+                 />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:textSize="30dp"
+                android:layout_margin="5sp"
+                android:background="@android:color/holo_blue_light"
+                 />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:textSize="30dp"
+                android:layout_margin="5sp"
+                android:background="@android:color/holo_blue_light"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:textSize="30dp"
+                android:layout_margin="5sp"
+                android:background="@android:color/holo_blue_light"
+                 />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:textSize="30dp"
+                android:layout_margin="5sp"
+                android:background="@android:color/holo_blue_light"
+                 />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:textSize="30dp"
+                android:layout_margin="5sp"
+                android:background="@android:color/holo_blue_light"
+                 />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonDel"
+        android:textSize="20dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="89dp"
+        android:layout_toStartOf="@+id/buttonBot"
+        android:text="Del" />
+
+    <Button
+        android:id="@+id/buttonBot"
+        android:textSize="20dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:text="Bot" />
+
+    <TextView
+        android:id="@+id/textViewX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonDel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:text="X:0" />
+
+    <TextView
+        android:id="@+id/textViewY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonBot"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
+        android:textSize="20dp"
+        android:text="Y:0" />
+
+    <Button
+        android:id="@+id/buttonRe"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="80dp"
+        android:text="Обратно"
+        android:textSize="20sp" />
+</RelativeLayout>
